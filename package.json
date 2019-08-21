@@ -1,0 +1,30 @@
+{
+  "name": "gia-node",
+  "version": "2.0.2",
+  "description": "Convenience packaging for accessing GIA API endpoints within Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacockj/gia-node.git"
+  },
+  "keywords": [
+    "GIA",
+    "API",
+    "Node"
+  ],
+  "author": "GIA Map LLC / LakeHawk Solutions LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacockj/gia-node/issues"
+  },
+  "homepage": "https://github.com/lacockj/gia-node#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}

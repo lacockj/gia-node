@@ -1,6 +1,10 @@
 # gia-node
 
-Replaces `gia-node` while under maintenance.
+Node module to make connecting to the GIA API quick and painless.
+
+## Installing
+
+`npm i gia-node`
 
 ## Usage
 
@@ -17,6 +21,22 @@ const gia = new Gia(API_KEY);
 ## Methods
 
 All methods return a promise
+
+### checkConnection
+
+Tests if you have connectivity with the GIA API
+
+```
+// Sample request:
+
+gia.checkConnection()
+  .then(version => console.log(version))
+  .catch(err => console.error(err.message));
+
+// Sample response
+
+GIAMap API v2
+```
 
 ### getBooks
 
